@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+
+div {
+	display: block;
+}
+
+
+
+
+/*========header===============*/
+
+#menu ul {
+    list-style-type: none;
+    background: #A00000;
+}
+
+#menu ul li {
+    color: #f1f1f1;
+    display: inline-table;
+    width: 170px;
+    height: 70px;
+    line-height: 70px;
+    position: relative;
+}
+
+#menu ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    font-size: 16px; 
+}
+
+#menu ul li a:hover {
+    background: #f1f1f1;
+    color: #333;
+}
+
+#menu ul li > .sub-menu {
+    display: none;
+    position: absolute;
+}
+
+#menu ul li:hover > .sub-menu{
+    display: block;
+}
+
+
+.content {
+    top: 70px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #D4D4D4;
+
+}
+
+.content .login-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -380px;
+    width: 760px;
+    min-height: 450px;
+    height: 550px;
+    border-radius: 5px;
+    border: 1px solid #D4D4D4;
+    background-color: #ffffff;
+}
+
+.login-box .title {
+    margin: 30px 0 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700px;
+}
+
+.login-box .login-form {
+    width: 395px;
+    margin: 0 auto;
+}
+
+.login-box .login-form .line {
+    position: relative;
+    height: 40px;
+    width: 395px;
+    margin-bottom: 20px;
+}
+
+.login-box .login-form .line input[type='text'] {
+    display: block;
+    width: 395px;
+    padding: 12px 15px;
+    border: 1px solid #dad8d3;
+    line-height: 14px;
+    font-size: 13px;
+    background-color: #ffffff;
+}
+
+.login-box .login-form .line input[type='password'] {
+    display: block;
+    width: 395px;
+    padding: 12px 15px;
+    border: 1px solid #dad8d3;
+    line-height: 14px;
+    font-size: 13px;
+    background-color: #ffffff;
+}
+
+.login-box .login-form .btnline {
+    margin-top: 20px;
+    font-size: 15px; 
+
+}
+
+
+
+.login-box .login-form .line input[type='submit'] {
+    display: block;
+    width: 395px;
+    height: 36px;
+    font-size: 13px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    border: none;
+    padding: 0;
+    background-color: #A00000;
+    cursor: pointer;
+    margin-bottom: 10px; 
+}

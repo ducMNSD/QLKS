@@ -1,0 +1,19 @@
+$ mkdir ~/web
+$ sudo vim /etc/apache2/sites-available/webserver.dev.conf
+<VirtualHost *:80>
+     ServerAdmin YOUR_EMAIL_ADDRESS
+     ServerName webserver.dev
+     DocumentRoot /home/son/web
+     <Directory /home/son/web>
+             Options Indexes FollowSymLinks MultiViews
+             DirectoryIndex index.html index.php
+             AllowOverride All
+             Order Allow,Deny
+             Allow from all
+             Require all granted
+     </Directory>
+</VirtualHost>
+$ sudo a2ensite webserver.dev.conf
+$ sudo service apache2 reload
+$ sudo vim /etc/hosts
+127.0.0.1    webserver.dev

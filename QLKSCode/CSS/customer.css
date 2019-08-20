@@ -1,0 +1,60 @@
+* {
+	margin: 0px;
+	padding: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+div {
+	display: block;
+}
+
+#menu ul {
+	list-style-type: none;
+	background: #A00000;
+}
+
+#menu ul li {
+	color: #f1f1f1;
+	display: inline-table;
+	width: 170px;
+	height: 70px;
+	line-height: 70px;
+	position: relative;
+}
+
+#menu ul li a {
+	color: #f1f1f1;
+	text-decoration: none;
+	text-align: center;
+	display: block; 
+}
+
+#menu ul li a:hover {
+	background: #f1f1f1;
+	color: #333;
+}
+
+#menu ul li > .sub-menu {
+	display: none;
+	position: absolute;
+}
+
+#menu ul li:hover > .sub-menu{
+	display: block;
+}
+
+.ten {
+	height: 50px;
+	line-height: 50px;
+}
+
+tr:nth-child(even) {
+	background-color: #D4D4D4;
+}

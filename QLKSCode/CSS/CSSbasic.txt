@@ -1,0 +1,74 @@
+1. CSS va vai tro
+2. Nhung css
+3. Vung chon #id, .class
+4. DDon vi do luong: px, pt, em, rem ...
+5. Cac thuoc tinh trang tri van ban:
+	+ text-align: Can le van ban. left, right, center, justify
+	+ text-decoration: Them gach duoi, tren, giua van ban. overline, underline, line-through, none.
+	+ text-indent: Tao khoang trong ben trai cho van ban. 22px....;
+	+ text-shadow: Do bong van ban. blue 2px 3px 4px, red 2px 4px 5px;
+	+ text-transform: Tuy chinh hien thi in HOA va in thuong. capitalize, uppercase, lowercase, normal.
+
+6. Cac thuoc tinh trang tri chu viet
+	+ font-family: Doi kieu font chu
+	+ font-style: lam chu in nghieng. italic, normal, oblique
+	+ font-weight: TUy chinh do dam nhat cua chu. bold, normal, 
+	+ color	: Them mau chu.
+
+7. Phan tu block va inline
+	+ Block (khoi) : la cac phan tu html khi tao ra no so huu 1 hang rieng biet. div, p, h1, h2...., ul,...
+	+ inline (noi dong) : la cac phan tu html khi tao ra no co the dung tren 1 hang. span, strong, a, ....	
+
+8. The div
+9. Ky thuat Box Model co ban
+	+ margin: le ngoai cua box. top bot right left.
+	+ border: vien cua box
+	+ padding: phan lot ben trong box ngan cach voi noi dung
+	+ content : noi dung cua box
+
+10. Tuy chinh kich thuoc cua box min-height.....
+11. Tinh toan lai kich thuoc cua box voi box-sizing
+	+ box-sizing: border-box;
+12. Them nen cho block
+	+ background-image: link....
+	+ background-position: bottom left.....
+	+ background-size: 100, 400,.....
+
+13. float va clear float
+	+ float: dua cai khoi cua minh ra ben trai hoac phai div cha
+	+ clear float de div con khong bi tran ra ngoai div cha
+		+ .clear{
+				clear: both;
+			}
+		+ #content{
+				overflow: auto;
+			} 
+
+14. reset css la gi?
+
+15. trang tri danh sach voi list-style
+	+ danh sach khong sap xep: <ul>
+	+ danh sach co sap xep : <ol>
+	+ list-style-type
+	+ list-style-position
+	+ list-style-image
+	+ list-style: type position image;
+
+16. Thuoc tinh display
+	+ bien doi block -> inline hoac nguoc lai ==> su dung display{}
+	+ inline, block, list-item, table-row, table-cell
+
+17. Thuoc tinh position
+	+ relative
+	+ absolute
+	+ fixed
+	+ z-index	
+	+ static
+
+18. pseudo-classes co ban
+	+ Nhung cai vung chon cho 1 phan tu cho 1 trang thai nhat dinh
+	+ a:hover{.....} di chuot vao phan tu se thay doi???
+	+ a:visited{....} nhap vao phan tu se thay doi ???
+	+ a:link{....} 
+	+ a:active{} chon 1 phan tu chung ta khi nhap chuot vao ma chua tha ra
+

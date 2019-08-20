@@ -1,0 +1,119 @@
+* {
+	margin: 0px;
+	padding: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+div {
+	display: block;
+}
+
+#menu ul {
+	list-style-type: none;
+	background: #A00000;
+}
+
+#menu ul li {
+	color: #f1f1f1;
+	display: inline-table;
+	width: 170px;
+	height: 70px;
+	line-height: 70px;
+	position: relative;
+}
+
+#menu ul li a {
+	color: #f1f1f1;
+	text-decoration: none;
+	text-align: center;
+	display: block; 
+}
+
+#menu ul li a:hover {
+	background: #f1f1f1;
+	color: #333;
+}
+
+#menu ul li > .sub-menu {
+	display: none;
+	position: absolute;
+}
+
+#menu ul li:hover > .sub-menu{
+	display: block;
+}
+
+.ten {
+	height: 50px;
+	line-height: 50px;
+}
+
+.content .login-box {
+	height: 60px;
+	width: 100%;
+	/*border-bottom: 1px solid #838383;*/
+	background-color: #D4D4D4;
+
+}
+
+.login-form div {
+	display: inline-table;
+	margin-left: 10px;
+}
+
+
+.login-form input[type='text'] {
+	margin-top: 10px; 
+	line-height: 14px;
+	width: 150px;
+	height: 30px;
+	/*margin-left: 20px;*/
+	line-height: 14px;
+}
+
+.login-form input[name='duyet'] {
+	margin-top: 10px; 
+	line-height: 14px;
+	width: 100px;
+	height: 30px;
+	margin-left: 20px;
+	text-align: center;
+    font-size: 15px;
+    border: none;
+    background-color: #A00000;
+    color: #fff;
+}
+
+.login-form select {
+/*	margin-top: 10px; */
+	line-height: 14px;
+	width: 150px;
+	height: 30px;
+	/*margin-left: 20px;*/
+	line-height: 14px;
+	background-color: #fff;
+}
+
+.ten {
+	height: 50px;
+	line-height: 50px;
+}
+
+table, th, td {
+    border:1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+	background-color: #D4D4D4;
+}
